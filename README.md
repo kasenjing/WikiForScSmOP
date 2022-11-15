@@ -265,7 +265,8 @@ Alignments are filtered to retain uniquely mapped reads.
 |2<sup>nd<sup>|Count field|This field has only one column specifies the fragment count within the group.|
 |3<sup>rd<sup>|Fragments field| Fragments within the group that each fragment is specified with chromosome start end.|
 |4<sup>th<sup>|Additional field| This field stores additional information for each fragment, if there are multiple additional information for each fragment, the information should be recorded separately.|
-An example of [***inline BED format***](#cluster-and-rdpcluster) with two addition information for each fragments: InfoA and InfoB.
+
+ An example of [***inline BED format***](#cluster-and-rdpcluster) with two addition information for each fragments: InfoA and InfoB.
 ```
     COMPLEX_8196    2   chr2    157832187   157832245   chr2    157883432   157883582   InfoA   InfoA   InfoB   InfoB
 ```
