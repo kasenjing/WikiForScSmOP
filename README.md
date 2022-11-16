@@ -20,7 +20,7 @@ ScSmOP have prepared configuration files for techniques mentioned above using co
 |scARC-seq|scarc-rna_config.json; scarc-atac_config.json|737K-arc-v1-scrna.txt;737K-arc-v1-scatac.txt|737K-arc-v1-scrna.txt:cellranger-arc-2.0.2/lib/python/cellranger/barcodes/737K-arc-v1.txt.gz; 737K-arc-v1-scatac.txt:cellranger-arc-2.0.2/lib/python/atac/barcodes/737K-arc-v1.txt.gz|
 |Spatial|scRNA-spatial_config.json|visium-v2.txt;visium-v2_coordinates.txt|spaceranger-2.0.0/lib/python/cellranger/barcodes/visium-v2.txt; spaceranger-2.0.0/lib/python/cellranger/barcodes/visium-v2_coordinates.txt|
 
-*Notice that different assay kit will incorporate different sets of barcodes whitelist to the libary, you can generate your own configuration file using the sets of whitelist corresponding to your experiment as in [Generate configuration file for your own data](#generate-configuration-file-for-your-own-data)*
+*Notice that different assay kit will incorporate different sets of barcodes whitelist to the library, you can generate your own configuration file using the sets of whitelist corresponding to your experiment as in [Generate configuration file for your own data](#generate-configuration-file-for-your-own-data)*
 
 ### Run ScSmOP
 To run ScSmOP on your ChIA-Drop data:
